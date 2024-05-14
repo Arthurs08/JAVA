@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #cccc;
+}
+
+.hero{
+    height: 500px;
+    background-image: url(../imagens/bg-2.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    padding-top: 1px; /*tirar a borda no topo da pagina*/
+}
+.hero-content{
+    margin: 100px auto 0;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 56px;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 2px #00000049;
+}
+.hero-content p {
+    background-color: #0000006f;
+    font-size: 24px;
+    padding: 16px;
+    border-bottom: 2px solid;
+}
+
+nav ul{
+    margin: 20px 50px 0 0;
+    text-align: right;
+}
+
+nav li{
+    margin-left: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #00000057;
+    border: 1px solid white;
+    border-radius: 100px;
+    color: white;
+    padding: 16px;
+    display: block;
+    letter-spacing: 2px;
+}
+
+nav a:hover{
+    background-color: #0000007e;
+}
+
+section{
+    padding-top: 32px;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+
+article{
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+article h2{
+    margin-top: 0;
+    padding: 5px;
+    text-transform: uppercase;
+    background-color: #bcbcbca9;
+    border-bottom: 1px solid #767676a7;
+}
+
+.rodape{
+    font-size: 13px;
+    padding: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    letter-spacing: 2px;
+    background-color: #5c5c5c9f;
+}
+
+.button{
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px;
+    background-color: #9b9b9b9f;
+    border-radius: 5px;
+    width: fit-content;
+}
+/* caso eu queira colocar o botão em outro lado de forma simples
+    .button{
+        text-decoration: none;
+        display: block;
+        padding: 12px;
+        background-color: #9b9b9b9f;
+        border-radius: 5px;
+        margin-left: auto;
+        width: fit-content; #vai pegar o conteudo e encaxiar de acordo com o texto
+}
+*/
+
+.button:hover{
+    background-color: #7f7f7fc7;
+    border-radius: 10px;
+}
